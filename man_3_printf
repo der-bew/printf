@@ -1,0 +1,50 @@
+.TH man 3 "5 Octobre 2021" "_printf man page"
+. SH NAME
+printf - prints the character(s)
+.SH SYNOPSIS
+#include "main.h"
+int _printf(const char *format, ...);
+
+## :books: DESCRIPTION :books:
+
+printf() functions are inbuilt library functions in C programming language which are available in C library by default. These functions are declared and related macros are defined in stdio.h which is a header file in C language.
+We have to include stdio.h file as shown in below C program to make use of these printf() and scanf() library functions in C language.
+In C programming language, printf() function used to print the character, string, float, integer, octal and hexadecimal values onto the output screen.
+We use printf() function with %d format specifier to display the value of an integer variable.
+Similarly %c is used to display character, %f for float variable, %s for string variable, %lf for double and %x for hexadecimal variable.
+To generate a newline,we use \n in C printf() statement.
+
+.RS 3
+c   prints a character variable
+.br
+s   prints a string variable
+.br
+d   prints an integer and takes an integer value as a signed decimal integer
+.br
+i   prints an integer and takes in a decimal, hexadecimal, or octal type
+.br
+b   prints a binary number
+.br
+u   prints an unsigned integer
+.br
+o   prints an octal number
+.br
+x   prints a hexadecimal number
+.br
+X   prints a hexadecimal number in caps
+.br
+.RE
+
+.SH RETURN
+The function will return the number of characters printed. If unsuccessful the function will return null.
+.SH EXAMPLE
+To print the day of the year, where weekday and month are pointers to a string and day and year are integer:
+
+ #include "main.h"
+_printf("%s, %s %d, %d\\n", weekday, month, day, year);
+.SH SEE ALSO
+.I printf(3)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Derbew Felasman, Melat Samuel
