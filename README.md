@@ -17,19 +17,19 @@
 
 ## Authorized functions and macros
 
-   * write (man 2 write)
-   * malloc (man 3 malloc)
-   * free (man 3 free)
-   * va_start (man 3 va_start)
-   * va_end (man 3 va_end)
-   * va_copy (man 3 va_copy)
-   * va_arg (man 3 va_arg)
+   * ```write``` (man 2 write)
+   * ```malloc``` (man 3 malloc)
+   * ```free``` (man 3 free)
+   * ```va_start``` (man 3 va_start)
+   * ```va_end``` (man 3 va_end)
+   * ```va_copy``` (man 3 va_copy)
+   * ```va_arg``` (man 3 va_arg)
 
 
 ##  Compilation
 
    * Your code will be compiled this way:
-      > $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c 
+      - $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c 
    * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
    * Our main files will include your main header file (main.h): #include main.h
    * You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. Example of test file that you could use:
@@ -83,9 +83,9 @@ int main(void)
    * If the task does not specify what to do with an edge case, do the same as printf
 
 ## Mandatory Tasks
-- [x] Write function that produces output with conversion specifiers ```c```, ```s```, and ```%```.
-- [x] Handle conversion specifiers ```d```, ```i```.
-- [x] Create a man page for your function.
+- [x][Write function that produces output with conversion specifiers ```c```, ```s```, and ```%```](./_printf.c).
+- [x] [Handle conversion specifiers ```d```, ```i```](./printnum.c)
+- [x] [Create a man page for your function](./man_3_printf)
 ## Advanced Tasks
 - [x] Handle conversion specifier ```b```.
 - [x] Handle conversion specifiers ```u```, ```o```, ```x```, ```X```.
@@ -100,3 +100,9 @@ int main(void)
 - [x] Handle the custom conversion specifier ```r``` that prints the reversed string.
 - [x] Handle the custom conversion specifier ```R``` that prints the rot13'ed string.
 - [ ] All above options should work well together.
+
+## Examples
+
+* ```_printf("Hello, Holberton\n")``` *prints "Hello, Holberton", followed by a new line*
+* ```_printf("%s", "Hello")``` *prints "Hello"*
+* ```_printf("This is a number: %d", 98)``` *prints "This is a number: 98"*
