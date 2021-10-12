@@ -1,7 +1,6 @@
 # Write your own printf function?
 
-## Requirements
-## General
+## General Requirements
 
    * Allowed editors: vi, vim, emacs
    * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -29,15 +28,13 @@
 
 ##  Compilation
 
-    * Your code will be compiled this way:
-
-    > $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c 
-
+   * Your code will be compiled this way:
+      > $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c 
    * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
    * Our main files will include your main header file (main.h): #include main.h
    * You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. Example of test file that you could use:
-   ```
-   #include <limits.h>
+```
+#include <limits.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -84,3 +81,25 @@ int main(void)
 ```
    * We strongly encourage you to work all together on a set of tests
    * If the task does not specify what to do with an edge case, do the same as printf
+
+## Mandatory Tasks
+
+   [x] Write function that produces output with conversion specifiers c, s, and %.
+   [x] Handle conversion specifiers d, i.
+   [x] Create a man page for your function.
+
+## Advanced Tasks
+
+   [x] Handle conversion specifier b.
+   [x] Handle conversion specifiers u, o, x, X.
+   [x] Use a local buffer of 1024 chars in order to call write as little as possible.
+   [x] Handle conversion specifier S.
+   [x] Handle conversion specifier p.
+   [x] Handle flag characters +, space, and # for non-custom conversion specifiers.
+   [] Handle length modifiers l and h for non-custom conversion specifiers.
+   [] Handle the field width for non-custom conversion specifiers.
+   [] Handle the precision for non-custom conversion specifiers.
+   [] Handle the 0 flag character for non-custom conversion specifiers.
+   [x] Handle the custom conversion specifier r that prints the reversed string.
+   [x] Handle the custom conversion specifier R that prints the rot13'ed string.
+   [*] All above options should work well together.
