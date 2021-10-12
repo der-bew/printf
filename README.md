@@ -103,6 +103,16 @@ int main(void)
 
 ## Examples
 
-* ```_printf("Hello, Holberton\n")``` *prints "Hello, Holberton", followed by a new line*
-* ```_printf("%s", "Hello")``` *prints "Hello"*
+* ```_printf("Hello, World\n")``` *prints "Hello, World", followed by a new line*
+* ```_printf("Hello, %s", "World")``` *prints "Hello, World"*
 * ```_printf("This is a number: %d", 98)``` *prints "This is a number: 98"*
+
+
+# Authors
+* **Derbew Felasman**
+   - *Github:* [Derbew Felasman](https://github.com/der-bew)
+   - *Email:* derbew12@gmail.com
+   - *Linkedin:* [Derbew Felasman](https://www.linkedin.com/in/derbew-felasman-34558951/)
+* **Melat Samuel**
+   - *Github:* [Melat Samuel](https://github.com/melatsam)
+   - *Email:* melatsam555@gmail.com
