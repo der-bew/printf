@@ -83,23 +83,23 @@ int main(void)
    * If the task does not specify what to do with an edge case, do the same as printf
 
 ## Mandatory Tasks
-- [x][Write function that produces output with conversion specifiers ```c```, ```s```, and ```%```](./_printf.c).
-- [x] [Handle conversion specifiers ```d```, ```i```](./printnum.c)
-- [x] [Create a man page for your function](./man_3_printf)
+- [x] [Write function that produces output with conversion specifiers ```c```, ```s```, and ```%```](./_printf.c).
+- [x] [Handle conversion specifiers ```d```, ```i```](./printnum.c).
+- [x] [Create a man page for your function](./man_3_printf).
 ## Advanced Tasks
-- [x] Handle conversion specifier ```b```.
-- [x] Handle conversion specifiers ```u```, ```o```, ```x```, ```X```.
-- [x] Use a local buffer of 1024 chars in order to call write as little as possible.
-- [x] Handle conversion specifier ```S```.
-- [x] Handle conversion specifier ```p```.
-- [x] Handle flag characters ```+```, space, and ```#``` for non-custom conversion specifiers.
+- [x] [Handle conversion specifier ```b```](./print_bases.c).
+- [x] [Handle conversion specifiers ```u```, ```o```, ```x```, ```X```](./print_bases.c).
+- [x] [Use a local buffer of 1024 chars in order to call write as little as possible](./write_funcs.c).
+- [x] [Handle conversion specifier ```S```](./print_custom.c).
+- [x] [Handle conversion specifier ```p```](./print_address.c).
+- [x] [Handle flag characters ```+```, space, and ```#``` for non-custom conversion specifiers](./get_flag.c).
 - [ ] Handle length modifiers ```l``` and ```h``` for non-custom conversion specifiers.
 - [ ] Handle the field width for non-custom conversion specifiers.
 - [ ] Handle the precision for non-custom conversion specifiers.
 - [ ] Handle the ```0``` flag character for non-custom conversion specifiers.
-- [x] Handle the custom conversion specifier ```r``` that prints the reversed string.
-- [x] Handle the custom conversion specifier ```R``` that prints the rot13'ed string.
-- [ ] All above options should work well together.
+- [x] [Handle the custom conversion specifier ```r``` that prints the reversed string](./print_custom.c).
+- [x] [Handle the custom conversion specifier ```R``` that prints the rot13'ed string](./print_custom.c).
+- [* ] All above options should work well together.
 
 ## Examples
 
