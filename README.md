@@ -1,4 +1,5 @@
-# Write your own printf function?
+# Write your own custom printf?
+```_printf``` is a custom implementation of the C programming function ```printf```. This project is an application of the C programming knowledge that ALX software engineering program cohort four students have learned since starting the program on August 2, 2021.
 
 ## General Requirements
 
@@ -99,7 +100,7 @@ int main(void)
 - [ ] Handle the ```0``` flag character for non-custom conversion specifiers.
 - [x] [Handle the custom conversion specifier ```r``` that prints the reversed string](./print_custom.c).
 - [x] [Handle the custom conversion specifier ```R``` that prints the rot13'ed string](./print_custom.c).
-- [* ] All above options should work well together.
+- [ ] All above options should work well together.
 
 ## Examples
 
