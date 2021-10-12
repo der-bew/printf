@@ -83,23 +83,20 @@ int main(void)
    * If the task does not specify what to do with an edge case, do the same as printf
 
 ## Mandatory Tasks
-
-   [x] Write function that produces output with conversion specifiers c, s, and %.
-   [x] Handle conversion specifiers d, i.
-   [x] Create a man page for your function.
-
+- [x] Write function that produces output with conversion specifiers ```c```, ```s```, and ```%```.
+- [x] Handle conversion specifiers ```d```, ```i```.
+- [x] Create a man page for your function.
 ## Advanced Tasks
-
-   [x] Handle conversion specifier b.
-   [x] Handle conversion specifiers u, o, x, X.
-   [x] Use a local buffer of 1024 chars in order to call write as little as possible.
-   [x] Handle conversion specifier S.
-   [x] Handle conversion specifier p.
-   [x] Handle flag characters +, space, and # for non-custom conversion specifiers.
-   [] Handle length modifiers l and h for non-custom conversion specifiers.
-   [] Handle the field width for non-custom conversion specifiers.
-   [] Handle the precision for non-custom conversion specifiers.
-   [] Handle the 0 flag character for non-custom conversion specifiers.
-   [x] Handle the custom conversion specifier r that prints the reversed string.
-   [x] Handle the custom conversion specifier R that prints the rot13'ed string.
-   [*] All above options should work well together.
+- [x] Handle conversion specifier ```b```.
+- [x] Handle conversion specifiers ```u```, ```o```, ```x```, ```X```.
+- [x] Use a local buffer of 1024 chars in order to call write as little as possible.
+- [x] Handle conversion specifier ```S```.
+- [x] Handle conversion specifier ```p```.
+- [x] Handle flag characters ```+```, space, and ```#``` for non-custom conversion specifiers.
+- [ ] Handle length modifiers ```l``` and ```h``` for non-custom conversion specifiers.
+- [ ] Handle the field width for non-custom conversion specifiers.
+- [ ] Handle the precision for non-custom conversion specifiers.
+- [ ] Handle the ```0``` flag character for non-custom conversion specifiers.
+- [x] Handle the custom conversion specifier ```r``` that prints the reversed string.
+- [x] Handle the custom conversion specifier ```R``` that prints the rot13'ed string.
+- [ ] All above options should work well together.
