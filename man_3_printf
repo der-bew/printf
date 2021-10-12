@@ -47,4 +47,4 @@ _printf("%s, %s %d, %d\\n", weekday, month, day, year);
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-Derbew Felasman, Melat Samuel
+Written by Derbew Felasman, Melat Samuel
